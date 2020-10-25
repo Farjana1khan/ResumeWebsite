@@ -1,0 +1,305 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+
+/*About css*/
+#pra{
+  color: #97224f;
+  font-family:'Anton', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  }
+
+  #para{
+    text-align: justify;
+  }
+
+.fa-laptop-code{
+  justify-content: center;
+  font-size: 60px;
+  padding-top: 0rem;
+
+}
+ .head{
+color: red;
+font-family:'Anton', sans-serif;
+
+}
+
+.page-section-heading{
+  color: #97224f;
+  font-family:'Anton', sans-serif;
+  font-size: 100%;
+}
+
+.row{
+  column-count: 2;
+  column-gap: 100px;
+  text-align: center;
+ padding: 10rem;
+ padding-top: 0rem;
+ font-family: Arial, sans-serif;
+ 
+ 
+}
+
+
+a:hover {
+  
+  text-decoration: underline;
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+ .divider .fa-laptop-code{
+ 
+  width: 100%;
+
+  justify-content: center;
+} 
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding: 1rem 1.75rem;
+  
+}
+
+ .h2 {
+  font-size: 2rem;
+  
+}
+
+ .h2 {
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+ .page-section {
+  padding: 6rem 0;
+  background: #27221F;
+  color: white;
+  margin: 20px;
+ 
+  
+
+}
+.page-section .page-section-heading {
+  font-size: 2.25rem;
+  line-height: 2rem;
+  
+}
+
+@media (min-width: 992px) {
+  .page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+} 
+
+
+.divider-custom {
+  margin: 6.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+ .divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: red;
+  border-radius: 1rem;
+  border-color: red !important;
+}
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 1rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 1rem;
+}
+.divider-custom .divider-custom-icon {
+  color: #2c3e50 !important;
+  font-size: 2rem;
+}
+.divider-custom.divider-light .divider-custom-line {
+  background-color:white;
+}
+.divider-custom.divider-light .divider-custom-icon {
+  color:white !important;
+} 
+
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2rem;
+}
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 550px;
+  background: white;
+  color: #97224f;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.contact-grid p{
+  color: #27221F;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted #27221F;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 55px;
+  padding-left:2rem;
+  padding-right: 5rem;
+  
+}
+
+ #fa {
+padding-right: 1rem;
+}
+
+.contact-list .fa-phone-square{
+  color: green;
+  padding-left: 12rem;
+  margin-top: 4rem;
+  font-size: 35px;
+}
+.contact-list .fa-envelope{
+  color: orangered;
+  padding-left: 12rem;
+  font-size: 45px;
+  width: 30px;
+  
+  
+  
+ }
+
+.contact-list .fa-linkedin{
+    color: #555d6b;
+    padding-left: 12rem;
+} 
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 150px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 16%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5rem;
+  padding: 8px;
+}
+
+#fab{
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 10px;
+}
