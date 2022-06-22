@@ -16,7 +16,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} >CRUD Operation</CardTitle>
             <CardText>
              In simple CRUD project i used reactjs,Bootstrap and Css for frontend design, make styling and good looking.
             </CardText>
@@ -33,12 +33,12 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} > Shopping List</CardTitle>
             <CardText>
-              In simple CRUD project i used reactjs,Bootstrap and Css for frontend design, make styling and good looking.
+             I have fetched data using axios Api to show image,author and price.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Farjana1khan/Simple-CRUD-Form.git" target="_blank" >
+              <Button colored href="https://github.com/Farjana1khan/ShoppingList-Project" target="_blank" >
               GitHub
               </Button>
              
@@ -50,12 +50,12 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Resume</CardTitle>
             <CardText>
-               In simple CRUD project i used reactjs,Bootstrap and Css for frontend design, make styling and good looking.
+              I have displayed about my self in that resume and  using react-mdl framework
             </CardText>
             <CardActions border>
-              <Button colored  href="https://github.com/Farjana1khan/Simple-CRUD-Form.git" target="_blank">
+              <Button colored  href="https://github.com/Farjana1khan/ResumeWebsite" target="_blank">
               GitHub
               </Button>
               
@@ -64,6 +64,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          
         </div>
 
 
@@ -75,13 +76,28 @@ class Projects extends Component {
         <div>
          <div className="projects-grid">
         
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{ height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_aEa8X0Xs52fs9m1DSBedCJq4gsuAb1KIkg&usqp=CAU) center / cover'}} ></CardTitle>
+        <Card shadow={5} style={{minWidth: '450', margin: "40px"}}>
+            <CardTitle style={{ height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_aEa8X0Xs52fs9m1DSBedCJq4gsuAb1KIkg&usqp=CAU) center / cover'}} >CRUD operation</CardTitle>
             <CardText>
-              Node js is used for backend for validation so that the project is correctly running.
+             I have build crud operation using node js and Express js
             </CardText>
             <CardActions border>
               <Button colored href="https://github.com/Farjana1khan/Simple-CRUD-Form.git"  target="_blank">
+              GitHub
+              </Button>
+             
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{minWidth: '450',margin: "40px"}}>
+            <CardTitle style={{ height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_aEa8X0Xs52fs9m1DSBedCJq4gsuAb1KIkg&usqp=CAU) center / cover'}} > REST FULL API</CardTitle>
+            <CardText>
+             I have created RESTFULL  API using node js and mongoDB
+            </CardText>
+            <CardActions border>
+              <Button colored href="https://github.com/Farjana1khan/RESTFULLAPI-NODEJS_MONGODB"  target="_blank">
               GitHub
               </Button>
              

@@ -26,7 +26,7 @@ class About extends Component {
                 <div className="col-lg-4 ml-auto">
                     <p className="lead">
                         <span id="pra">Who I Am?</span> <br/>
-                        <div id="para">A young woman with a goal of becoming a senior software engineer, building solutions that help
+                        <div id="para">I am Frontend Developer (React JS), and building projects that help
                         humanity around the world, and solutions that make businesses and organizations operate
                         smoothly.</div>
                     </p>

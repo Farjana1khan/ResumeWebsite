@@ -20,10 +20,9 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '1em'}}>Farjana Fatehmohd</h2>
-            <h4 style={{color: 'grey'}}>Student</h4>
+            <h4 style={{color: 'grey'}}>Experienced</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Seeking a position to utilize my skills and abilities in a technology industry that offers
-               professional growth while being resourceful, innovative and flexible.
+            <p> Frontend Developer specializing in React Js development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including   JavaScript, Html, CSS, Bootstrap, Node JS, Express JS, Mongo DB, MySQL
 </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
@@ -32,7 +31,9 @@ class Resume extends Component {
             <p>(91) 7021170769</p>
             <h5>Email</h5>
             <p>farjana09khan@gmail.com</p>
-            <h5>Web</h5>
+            <h5>LinkedIn</h5>
+            <p>https://www.linkedin.com/in/farjana-fateh-mohd-17a8441a0/</p>
+            <h5>Website</h5>
             <p>mywebsite.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
@@ -59,43 +60,50 @@ class Resume extends Component {
               <h2>Experience</h2> 
 
             <Experience
-              startYear={1111}
-              endYear={2222}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2021}
+              endYear={2021}
+              jobName="Internship"
+              jobDescription="March 2021–September 2021 | Web Soft IT Solutions, Pune, Maharashtra"
+              
+            
               />
 
               <Experience
-                startYear={3333}
-                endYear={4444}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2022}
+                endYear={2022}
+                jobName="Frontend Developer(Employement)"
+                jobDescription="February 2022-June2022 | CyberMoksh , Gurgaon, Haryana"
                 /> 
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
                       skill="React Js"
                       progress={80}
                       />
-                      <Skills
+                <Skills
                       skill="Bootstrap"
                       progress={90}
-                      />
+                      />      
+                <Skills
+                      skill="javascript"
+                      progress={100}
+                />
+                <Skills
+                     skill="HTML/CSS"
+                     progress={80}
+                  />
+                  <Skills
+                     skill="NodeJS"
+                     progress={50}
+                    />
+                   
                       <Skills
-                      skill="MySql"
-                      progress={80}
+                        skill="MySql"
+                        progress={80}
+                      />
+                       <Skills
+                        skill="MongoDB"
+                        progress={80}
                       />
 
 
