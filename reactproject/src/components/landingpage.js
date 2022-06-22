@@ -28,7 +28,7 @@ class Landing extends Component {
              rel="noopener noreferrer" target="_blank">
              <i className="fab fa-linkedin" id="fab"
              aria-hidden="true" /> 
-             {/* <i class="fab fa-linkedin"></i> */}
+           
           </a>
 
           {/* Github */}
