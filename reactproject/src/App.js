@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
+import  logo from "./images/flogo.png"
 
 class App extends Component {
 
@@ -16,7 +17,7 @@ class App extends Component {
         <Header className="header-color"
         style={{textDecoration: 'none',}}
         
-         title={<Link style={{textDecoration: 'none',  color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+         title={<Link style={{textDecoration: 'none',  color: 'white'}} to="/"><img src={logo} alt="logo" style={{width: "70px", height: "40px"}} /></Link>} scroll>
             <Navigation>
              <Link to="/aboutme" style={{textDecoration: 'none', color: 'white'}}>About Me</Link>
                 <Link to="/resume" style={{textDecoration: 'none', color: 'white'}}>Resume</Link>
@@ -24,7 +25,7 @@ class App extends Component {
                 <Link to="/contact" style={{textDecoration: 'none', color: 'white'}}>Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/"><img src={logo} alt="logo" style={{width: "70px", height: "40px"}} /></Link>}>
             <Navigation>
              <Link to="/aboutme">About Me</Link>
               <Link to="/resume">Resume</Link>
