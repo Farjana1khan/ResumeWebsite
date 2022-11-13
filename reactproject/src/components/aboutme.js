@@ -34,8 +34,8 @@ class About extends Component {
                 <div className="col-lg-4 mr-auto">
                     <p className="lead">
                         <span id="pra">What Can I do?</span> <br/>
-                       <div id="para"> I can comfortably work on frontend jobs using web development tools. In addition to that, I use
-                        Html,Bootstrap and Node JS to create and databases to web applications I create or work on.
+                       <div id="para"> I can comfortably work on frontend jobs using web development tools. In addition to that, I use ReactJS, javaScript
+                        Html/Css, Bootstrap and  to create frontend for backend NodeJs and mongoDB databases to Full Stack web applications I have ability to create or work on these technologies.
                    </div> </p>
                 </div>
             </div>

@@ -5,17 +5,23 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 class App extends Component {
+
   render() {
+    //for un-inspect
+    //window.addEventListener("contextmenu", (e) => e.preventDefault());
+
     return (
       <div className="demo-big-content">
     <Layout>
         <Header className="header-color"
-         title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+        style={{textDecoration: 'none',}}
+        
+         title={<Link style={{textDecoration: 'none',  color: 'white'}} to="/">MyPortfolio</Link>} scroll>
             <Navigation>
-             <Link to="/aboutme">About Me</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+             <Link to="/aboutme" style={{textDecoration: 'none', color: 'white'}}>About Me</Link>
+                <Link to="/resume" style={{textDecoration: 'none', color: 'white'}}>Resume</Link>
+                <Link to="/projects" style={{textDecoration: 'none', color: 'white'}}>Projects</Link>
+                <Link to="/contact" style={{textDecoration: 'none', color: 'white'}}>Contact</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>

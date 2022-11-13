@@ -16,6 +16,9 @@
   height: 100%;
 }
 
+
+
+
 .projects-grid {
   display: flex;
 }
@@ -197,6 +200,13 @@ a:not([href]):hover {
   margin-bottom: 20px;
 }
 
+.contact-grid img{
+  margin-top: 10px;
+  font-size: 10px;
+  width: 150px;
+  height: 10rem;
+}
+
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
 
@@ -246,7 +256,7 @@ padding-right: 1rem;
  }
 
 .contact-list .fa-linkedin{
-    color: #555d6b;
+    color: #3871d4;
     padding-left: 12rem;
 } 
 
@@ -302,3 +312,133 @@ padding-right: 1rem;
   color: white;
   padding-bottom: 10px;
 }
+
+
+
+/* For responsive */
+@media (max-width: 520px) {
+  .landing-grid  {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+
+  }
+
+  .banner-text {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+
+  .landing-grid .banner-text > h1 {
+      font-size: 30px;
+  }
+  
+  .landing-grid .social-links {
+    display: block;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px auto; 
+    justify-content: space-between;
+}
+
+  .row{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  margin-left: -140px;
+  
+}
+
+.lead {
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 1rem 1.75rem;
+  
+}
+
+.projects-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 60px;
+  top:0;
+
+}
+
+
+
+.contact-body{
+ margin-bottom: 0rem;
+  height: 0vh; 
+}
+
+
+.contact-grid h2{
+  height: 3vh; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -20px;
+  font-size: 20px; 
+  flex-wrap: wrap;
+  top: 0;
+}
+.contact-grid img{
+  margin-top: 10px;
+  font-size: 10px;
+  width: 20%;
+  height: 5rem;
+}
+
+.contact-grid p{
+  font-size: 10px; 
+  }
+
+.contact-list{
+  display: flex;
+  flex-direction: row;
+
+  font-size: 10px;
+}
+
+.contact-grid .contact-list .contact-listitem{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+ justify-content: center;
+font-size: 5px;
+  padding: 10px 20px 30px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+  background-color: #fcb045;
+}
+
+ .contact-list  #fa{
+  font-size: 4px;
+
+  letter-spacing: 0.04em;
+  line-height: 1;
+  display: flex;
+  min-height: 4px;
+  box-sizing: border-box;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  cursor: default;
+  color: rgba(0,0,0, 0.87);
+  overflow: hidden;
+
+}
+
+
+
+} 

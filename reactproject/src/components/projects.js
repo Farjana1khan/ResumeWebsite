@@ -15,7 +15,7 @@ class Projects extends Component {
         // React Js Projects
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} >CRUD Operation</CardTitle>
             <CardText>
              In simple CRUD project i used reactjs,Bootstrap and Css for frontend design, make styling and good looking.
@@ -32,7 +32,7 @@ class Projects extends Component {
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} > Shopping List</CardTitle>
             <CardText>
              I have fetched data using axios Api to show image,author and price.
@@ -49,7 +49,24 @@ class Projects extends Component {
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Resume</CardTitle>
+            <CardText>
+              I have displayed about my self in that resume and  using react-mdl framework
+            </CardText>
+            <CardActions border>
+              <Button colored  href="https://github.com/Farjana1khan/ResumeWebsite" target="_blank">
+              GitHub
+              </Button>
+              
+            </CardActions>
+            <CardMenu style={{color: '#000'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+           {/* Project 4 */}
+           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Resume</CardTitle>
             <CardText>
               I have displayed about my self in that resume and  using react-mdl framework
@@ -76,7 +93,7 @@ class Projects extends Component {
         <div>
          <div className="projects-grid">
         
-        <Card shadow={5} style={{minWidth: '450', margin: "40px"}}>
+        <Card shadow={5} style={{minWidth: '450', margin: "20px"}}>
             <CardTitle style={{ height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_aEa8X0Xs52fs9m1DSBedCJq4gsuAb1KIkg&usqp=CAU) center / cover'}} >CRUD operation</CardTitle>
             <CardText>
              I have build crud operation using node js and Express js
@@ -91,7 +108,7 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          <Card shadow={5} style={{minWidth: '450',margin: "40px"}}>
+          <Card shadow={5} style={{minWidth: '450',margin: "20px"}}>
             <CardTitle style={{ height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_aEa8X0Xs52fs9m1DSBedCJq4gsuAb1KIkg&usqp=CAU) center / cover'}} > REST FULL API</CardTitle>
             <CardText>
              I have created RESTFULL  API using node js and mongoDB
@@ -119,7 +136,7 @@ class Projects extends Component {
         
          <div className="projects-grid">
         
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#000', height: '176px', background: 'url(https://augnitive.com/wp-content/uploads/2019/09/Fundamentals-of-JavaScript-Part-2.png) center / cover'}} ></CardTitle>
             <CardText>
              This project is Music App player used  different song, author,title and audio.
@@ -147,7 +164,7 @@ class Projects extends Component {
         <div>
          <div className="projects-grid">
         
-        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+        <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxFLFZsQTRwE8dg2rseSyTnmv5Os6DwnVtPg&usqp=CAU) center / cover'}} ></CardTitle>
             <CardText>
              It is Company theme project use for searching different company and html, bootstrap is use for responsive web page, javascript is use for validation and css is use
@@ -155,6 +172,35 @@ class Projects extends Component {
             </CardText>
             <CardActions border>
               <Button colored style={{align: 'center'}}  href=" https://github.com/Farjana1khan/CompanyThemeWebsite.git" target="_blank" >
+              
+              GitHub
+              </Button>
+             
+            </CardActions>
+            <CardMenu>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          </div>
+        
+        
+        </div>
+      )
+    }
+    else if(this.state.activeTab === 4) {
+      return (
+
+        // MERN Project
+        <div>
+         <div className="projects-grid">
+        
+        <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV1ZyUg4a4JHP8w4sTL5BY2Tq-Dm8lcgNX8Q&usqp=CAU) center / cover'}} ></CardTitle>
+            <CardText>
+             It is a e-commerce project. In that project created Admin, users, product list, order, shipping, payment and checkout.
+            </CardText>
+            <CardActions border>
+              <Button colored style={{align: 'center'}}  href=" https://github.com/Farjana1khan/Ecommerce_MERN_Project" target="_blank" >
               
               GitHub
               </Button>
@@ -183,6 +229,7 @@ class Projects extends Component {
           <Tab>Node Js</Tab>
           <Tab>JavaScript</Tab>
           <Tab>Html/Css</Tab>
+          <Tab>MERN</Tab>
         </Tabs>
 
 
