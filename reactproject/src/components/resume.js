@@ -33,7 +33,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>farjana09khan@gmail.com</p>
             <h5>LinkedIn</h5>
-            <p>https://www.linkedin.com/in/farjana-fateh-mohd-17a8441a0/</p>
+            <p>https://www.linkedin.com/in/farjana-fatehmohd-17a8441a0/</p>
             <h5>GitHub</h5>
             <p>https://github.com/Farjana1khan</p>
             <h5>Website</h5>
