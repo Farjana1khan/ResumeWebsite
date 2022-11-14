@@ -1,13 +1,33 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -16,17 +36,14 @@
   height: 100%;
 }
 
-
-
-
 .projects-grid {
   display: flex;
 }
 
 /*About css*/
-#pra{
+#pra {
   color: #97224f;
-  font-family:'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 2rem;
   text-align: center;
   /* font-family: Arial, Helvetica, sans-serif; */
@@ -40,44 +57,38 @@
 .p {
   margin-top: 0;
   margin-bottom: 1rem;
-  }
+}
 
-  #para{
-    text-align: justify;
-  }
+#para {
+  text-align: justify;
+}
 
-.fa-laptop-code{
+.fa-laptop-code {
   justify-content: center;
   font-size: 60px;
   padding-top: 0rem;
-
 }
- .head{
-color: red;
-font-family:'Anton', sans-serif;
-
+.head {
+  color: red;
+  font-family: "Anton", sans-serif;
 }
 
-.page-section-heading{
+.page-section-heading {
   color: #97224f;
-  font-family:'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-size: 100%;
 }
 
-.row{
+.row {
   column-count: 2;
   column-gap: 100px;
   text-align: center;
- padding: 10rem;
- padding-top: 0rem;
- font-family: Arial, sans-serif;
- 
- 
+  padding: 10rem;
+  padding-top: 0rem;
+  font-family: Arial, sans-serif;
 }
 
-
 a:hover {
-  
   text-decoration: underline;
 }
 
@@ -90,45 +101,40 @@ a:not([href]):hover {
   text-decoration: none;
 }
 
- .divider .fa-laptop-code{
- 
+.divider .fa-laptop-code {
   width: 100%;
 
   justify-content: center;
-} 
+}
 
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
   padding: 1rem 1.75rem;
-  
 }
 
- .h2 {
+.h2 {
   font-size: 2rem;
-  
 }
 
- .h2 {
+.h2 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
 }
 
- .page-section {
+.page-section {
   padding: 6rem 0;
-  background: #27221F;
+  background: #27221f;
   color: white;
   margin: 20px;
- 
-  
-
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
-  
 }
 
 @media (min-width: 992px) {
@@ -136,8 +142,7 @@ a:not([href]):hover {
     font-size: 3rem;
     line-height: 2.5rem;
   }
-} 
-
+}
 
 .divider-custom {
   margin: 6.25rem 0 1.5rem;
@@ -145,8 +150,8 @@ a:not([href]):hover {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
- .divider-custom .divider-custom-line {
+}
+.divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
@@ -165,16 +170,15 @@ a:not([href]):hover {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color:white;
+  background-color: white;
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color:white !important;
-} 
-
+  color: white !important;
+}
 
 /* Resume Page css */
 .resume-right-col {
-  background: #27221F;
+  background: #27221f;
   color: white;
   padding: 2rem;
 }
@@ -200,7 +204,7 @@ a:not([href]):hover {
   margin-bottom: 20px;
 }
 
-.contact-grid img{
+.contact-grid img {
   margin-top: 10px;
   font-size: 10px;
   width: 150px;
@@ -208,60 +212,65 @@ a:not([href]):hover {
 }
 
 .contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-
+  font-family: "Anton", sans-serif;
 }
 
 .contact-grid p {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: bold;
   text-align: justify;
 }
 
-.contact-grid p{
-  color: #27221F;
+.contact-grid p {
+  color: #27221f;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted #27221F;
+  border-top: 5px dotted #27221f;
   width: 50%;
   margin: auto;
 }
 
 .contact-list i {
   font-size: 55px;
-  padding-left:2rem;
+  padding-left: 2rem;
   padding-right: 5rem;
-  
 }
 
- #fa {
-padding-right: 1rem;
+.contact-list a {
+  font-size: 25px;
 }
 
-.contact-list .fa-phone-square{
+.contact-list .phone {
+  font-size: 25px;
+  color: #423f3e;
+}
+
+#fa {
+  padding-right: 1rem;
+}
+
+.contact-list .fa-phone-square {
   color: green;
   padding-left: 12rem;
   margin-top: 4rem;
   font-size: 30px;
 }
-.contact-list .fa-envelope{
+.contact-list .fa-envelope {
   color: orangered;
   padding-left: 12rem;
   font-size: 30px;
   width: 30px;
-  
-  
-  
- }
+}
 
-.contact-list .fa-linkedin{
-    color: #3871d4;
-    padding-left: 12rem;
-} 
+.contact-list .fa-linkedin {
+  color: #3871d4;
+  padding-left: 12rem;
+  font-size: 30px;
+  width: 30px;
+}
 
-
-.contact-list .fa-github{
+.contact-list .fa-github {
   color: rgb(72, 71, 71);
   padding-left: 12rem;
   font-size: 30px;
@@ -277,7 +286,7 @@ padding-right: 1rem;
 
 .banner-text {
   background-color: black;
-  opacity: .8;
+  opacity: 0.8;
   width: 75%;
   margin: auto;
   border-radius: 10px;
@@ -314,17 +323,15 @@ padding-right: 1rem;
   padding: 8px;
 }
 
-#fab{
+#fab {
   font-size: 3rem;
   color: white;
   padding-bottom: 10px;
 }
 
-
-
 /* For responsive */
 @media (max-width: 520px) {
-  .landing-grid  {
+  .landing-grid {
     font-size: 1rem;
     line-height: 2.5rem;
     text-align: center;
@@ -333,7 +340,6 @@ padding-right: 1rem;
     left: 0;
     width: 100%;
     height: 120vh;
-
   }
 
   .banner-text {
@@ -343,118 +349,141 @@ padding-right: 1rem;
   }
 
   .landing-grid .banner-text > h1 {
-      font-size: 30px;
+    font-size: 30px;
   }
-  
+
   .landing-grid .social-links {
     display: block;
     flex-direction: row;
     padding: 10px;
-    margin: 10px auto; 
+    margin: 10px auto;
     justify-content: space-between;
-}
-
-  .row{
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  width: 100%;
-  margin-left: -140px;
-  
-}
-
-.lead {
-  font-size: 1rem;
-  font-weight: 100;
-  padding: 1rem 1.75rem;
-  
-}
-
-.projects-grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 60px;
-  top:0;
-
-}
-
-
-
-.contact-body{
- margin-bottom: 0rem;
-  height: 0vh; 
-}
-
-
-.contact-grid h2{
-  height: 3vh; 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: -20px;
-  font-size: 20px; 
-  flex-wrap: wrap;
-  top: 0;
-}
-.contact-grid img{
-  margin-top: 10px;
-  font-size: 10px;
-  width: 20%;
-  height: 5rem;
-}
-
-.contact-grid p{
-  font-size: 10px; 
   }
 
-.contact-list{
-  display: flex;
-  flex-direction: row;
+  .row {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -140px;
+  }
 
-  font-size: 10px;
+  .lead {
+    font-size: 1rem;
+    font-weight: 100;
+    padding: 1rem 1.75rem;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    top: 0;
+  }
+
+  .contact-body {
+    margin-bottom: 0rem;
+    height: 0vh;
+  }
+
+  .contact-grid h2 {
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 20px;
+    flex-wrap: wrap;
+    top: 0;
+  }
+
+  .contact-grid img {
+    margin-top: 0px;
+    font-size: 10px;
+    width: 20%;
+    height: 5rem;
+  }
+
+  .contact-grid p {
+    font-size: 10px;
+  }
+
+  .contact-grid .contact-list {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0px 0px;
+    margin: 10px 0 20px 0px;
+    position: relative;
+    justify-content: center;
+  }
+  #fa {
+    padding-right: 1rem;
+  }
+  
+  .contact-list .fa-phone-square {
+   
+    padding-left: 12rem;
+    margin-top: 0rem;
+    font-size: 30px;
+  }
+
+  .contact-list .fa-github {
+    padding-left: 6rem;
+    font-size: 3px;
+    width: 0px;
+  }
+
+  .contact-list .fa-envelope {
+    padding-left: 12rem;
+    font-size: 0px;
+    width: 0px;
+  }
+
+  .contact-list .fa-linkedin {
+    padding-left: 6rem;
+  }
+
+  .contact-grid .contact-list .contact-listitem {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    font-size: 0px;
+    padding: 0px 0px 0px 0px;
+    margin-right: 18px;
+    width: 100%;
+    height: 50%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-color: #fcb045;
+  }
+
+  .contact-grid .contact-list .contact-listitem {
+    letter-spacing: 0.04em;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.87);
+    overflow: hidden;
+  }
+
+  .contact-grid .contact-list #fa {
+    font-size: 4px;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    display: flex;
+    min-height: 4px;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    cursor: default;
+    color: rgba(0, 0, 0, 0.87);
+    overflow: hidden;
+  }
 }
-
-.contact-grid .contact-list .contact-listitem{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  position: relative;
- justify-content: center;
-font-size: 5px;
-  padding: 10px 20px 30px;
-  margin-right: 16px;
-  margin-bottom: 20px;
-  background-color: #fcb045;
-}
-
- .contact-list  #fa{
-  font-size: 4px;
-
-  letter-spacing: 0.04em;
-  line-height: 1;
-  display: flex;
-  min-height: 4px;
-  box-sizing: border-box;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  text-align: center;
-  cursor: default;
-  color: rgba(0,0,0, 0.87);
-  overflow: hidden;
-
-}
-
-
-
-} 
-
-
-
-
-
-
-
-
-
