@@ -9,7 +9,7 @@ class App extends Component {
 
   render() {
     //for un-inspect
-   // window.addEventListener("contextmenu", (e) => e.preventDefault());
+    window.addEventListener("contextmenu", (e) => e.preventDefault());
 
     return (
       <div className="demo-big-content">
