@@ -46,7 +46,7 @@ class Contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" id="fa" aria-hidden="true" />
-                    <a href="mailto:farjana09khan@gmail.com" style={{textDecorationLine: "none", color: "black"}} > Farjana09khan@gmail.com</a>
+                    <a target="__blank" href="mailto:farjana09khan@gmail.com" style={{textDecorationLine: "none", color: "black"}} > Farjana09khan@gmail.com</a>
                      
                   </ListItemContent>
                 </ListItem>
@@ -60,10 +60,20 @@ class Contact extends Component {
                       id="fa"
                       aria-hidden="true"
                     ></i>
-                     <a style={{textDecorationLine: "none", color: "black"}} href=" https://www.linkedin.com/in/farjana-fateh-mohd-17a8441a0/"> linkedin</a>
+                     <a style={{textDecorationLine: "none", color: "black"}} target="__blank" href="https://www.linkedin.com/in/farjana-fatehmohd-17a8441a0/"> linkedin</a>
                    
                   </ListItemContent>
                 </ListItem>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "30px", fontFamily: "Anton" }}
+                  >
+                    <i className="fab fa-github" id="fa" aria-hidden="true" />
+                    <a target="__blank" href="https://github.com/Farjana1khan" style={{textDecorationLine: "none", color: "black"}} > GitHub</a>
+                     
+                  </ListItemContent>
+                </ListItem>
+               
               </List>
             </div>
           </Cell>

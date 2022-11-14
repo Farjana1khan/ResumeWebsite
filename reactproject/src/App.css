@@ -243,12 +243,12 @@ padding-right: 1rem;
   color: green;
   padding-left: 12rem;
   margin-top: 4rem;
-  font-size: 35px;
+  font-size: 30px;
 }
 .contact-list .fa-envelope{
   color: orangered;
   padding-left: 12rem;
-  font-size: 45px;
+  font-size: 30px;
   width: 30px;
   
   
@@ -260,6 +260,13 @@ padding-right: 1rem;
     padding-left: 12rem;
 } 
 
+
+.contact-list .fa-github{
+  color: rgb(72, 71, 71);
+  padding-left: 12rem;
+  font-size: 30px;
+  width: 30px;
+}
 
 /* contact page css */
 

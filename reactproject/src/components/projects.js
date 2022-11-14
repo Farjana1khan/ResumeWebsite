@@ -18,13 +18,18 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} >CRUD Operation</CardTitle>
             <CardText>
-             In simple CRUD project i used reactjs,Bootstrap and Css for frontend design, make styling and good looking.
+             In simple CRUD project i used ReactJS,Bootstrap and Css for frontend design, make styling and good looking.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Farjana1khan/Simple-CRUD-Form.git"  target="_blank">
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/Simple-CRUD-Form.git"  target="_blank">
               GitHub
               </Button>
             
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="/" target="_blank" >
+               Link
+              </Button>
+             
+
             </CardActions>
             <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
@@ -35,13 +40,17 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} > Shopping List</CardTitle>
             <CardText>
-             I have fetched data using axios Api to show image,author and price.
+             I have created login, Shopping List and  fetched data using axios Api to show image,author and price.
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Farjana1khan/ShoppingList-Project" target="_blank" >
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/ShoppingList-Project" target="_blank" >
               GitHub
               </Button>
              
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="https://shoppinglistproject-farjana1khan.vercel.app/" target="_blank" >
+              Link
+              </Button>
+
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -50,15 +59,18 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Resume</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Portfolio</CardTitle>
             <CardText>
               I have displayed about my self in that resume and  using react-mdl framework
             </CardText>
             <CardActions border>
-              <Button colored  href="https://github.com/Farjana1khan/ResumeWebsite" target="_blank">
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/ResumeWebsite" target="_blank">
               GitHub
               </Button>
               
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="https://farjana-portfolio-website.netlify.app/" target="_blank" >
+              Link
+              </Button>
             </CardActions>
             <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
@@ -67,15 +79,18 @@ class Projects extends Component {
 
            {/* Project 4 */}
            <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Resume</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > Movie Search App</CardTitle>
             <CardText>
-              I have displayed about my self in that resume and  using react-mdl framework
+              I have created movie search App 
             </CardText>
             <CardActions border>
-              <Button colored  href="https://github.com/Farjana1khan/ResumeWebsite" target="_blank">
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/movie-list-app.git" target="_blank">
               GitHub
               </Button>
               
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="https://build-by-farjana-movieapp.netlify.app/" target="_blank" >
+              Link
+              </Button>
             </CardActions>
             <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
@@ -99,8 +114,11 @@ class Projects extends Component {
              I have build crud operation using node js and Express js
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Farjana1khan/Simple-CRUD-Form.git"  target="_blank">
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/Simple-CRUD-Form.git"  target="_blank">
               GitHub
+              </Button>
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="/" target="_blank" >
+              Link
               </Button>
              
             </CardActions>
@@ -114,10 +132,12 @@ class Projects extends Component {
              I have created RESTFULL  API using node js and mongoDB
             </CardText>
             <CardActions border>
-              <Button colored href="https://github.com/Farjana1khan/RESTFULLAPI-NODEJS_MONGODB"  target="_blank">
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/RESTFULLAPI-NODEJS_MONGODB"  target="_blank">
               GitHub
               </Button>
-             
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="#" target="_blank" >
+              Link
+              </Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -143,10 +163,12 @@ class Projects extends Component {
              In that project i used Javascript, Bootstrap,Css for design,styling and javascript  used for validation.
             </CardText>
             <CardActions border>
-              <Button colored  href="https://github.com/Farjana1khan/Music-App-Player.git"  target="_blank">
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/Music-App-Player.git"  target="_blank">
               GitHub
               </Button>
-             
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="/" target="_blank" >
+              Link
+              </Button>
             </CardActions>
             <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
@@ -171,11 +193,13 @@ class Projects extends Component {
               for designing and styling the webpage
             </CardText>
             <CardActions border>
-              <Button colored style={{align: 'center'}}  href=" https://github.com/Farjana1khan/CompanyThemeWebsite.git" target="_blank" >
+              <Button colored style={{align: 'center', textDecoration:'none' }}  href=" https://github.com/Farjana1khan/CompanyThemeWebsite.git" target="_blank" >
               
               GitHub
               </Button>
-             
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="/" target="_blank" >
+              Link
+              </Button>
             </CardActions>
             <CardMenu>
               <IconButton name="share" />
@@ -200,11 +224,13 @@ class Projects extends Component {
              It is a e-commerce project. In that project created Admin, users, product list, order, shipping, payment and checkout.
             </CardText>
             <CardActions border>
-              <Button colored style={{align: 'center'}}  href=" https://github.com/Farjana1khan/Ecommerce_MERN_Project" target="_blank" >
+              <Button colored style={{align: 'center', textDecoration:'none' }}  href=" https://github.com/Farjana1khan/Ecommerce_MERN_Project" target="_blank" >
               
               GitHub
               </Button>
-             
+              <Button colored style={{color:"red", textDecoration:'none' }}  href="https://e-commerce-mern-app.netlify.app/" target="_blank" >
+              Link
+              </Button>
             </CardActions>
             <CardMenu>
               <IconButton name="share" />
