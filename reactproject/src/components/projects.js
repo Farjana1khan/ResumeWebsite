@@ -13,6 +13,7 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
         // React Js Projects
+
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
@@ -89,6 +90,28 @@ class Projects extends Component {
               </Button>
               
               <Button colored style={{color:"red", textDecoration:'none' }}  href="https://build-by-farjana-movieapp.netlify.app/" target="_blank" >
+              Link
+              </Button>
+            </CardActions>
+            <CardMenu style={{color: '#000'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+         
+
+           {/* Project 5 */}
+           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://www.guidingtech.com/wp-content/uploads/HD-Mouth-Watering-Food-Wallpapers-for-Desktop-12_4d470f76dc99e18ad75087b1b8410ea9.jpg) center / cover'}} > Foodies app</CardTitle>
+            <CardText>
+              I have created Foodies App 
+            </CardText>
+            <CardActions border>
+              <Button colored style={{ textDecoration:'none' }} href="https://github.com/Farjana1khan/FoodiesApp.git" target="_blank">
+              GitHub
+              </Button>
+              
+              <Button colored style={{color:"red", textDecoration:'none' }}  href=" https://foodies-reactjs-app.netlify.app/" target="_blank" >
               Link
               </Button>
             </CardActions>
