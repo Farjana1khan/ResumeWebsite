@@ -39,7 +39,7 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} > Shopping List</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://fileserver.teachstarter.com/thumbnails/25184-52-shopping-list-vocabulary-words-gb-thumbnail-0-600x400.png) center / cover'}} > Shopping List</CardTitle>
             <CardText>
              I have created login, Shopping List and  fetched data using axios Api to show image,author and price.
             </CardText>
@@ -53,14 +53,14 @@ class Projects extends Component {
               </Button>
 
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
+          
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > My Portfolio</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://st2.depositphotos.com/1032577/6582/i/450/depositphotos_65828845-stock-photo-portfolio-written-on-notebook.jpg) center / cover'}} > My Portfolio</CardTitle>
             <CardText>
               I have displayed about my self in that resume and  using react-mdl framework
             </CardText>
@@ -80,7 +80,7 @@ class Projects extends Component {
 
            {/* Project 4 */}
            <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQU4bVUSEX6ijCbbfdAXgjydRlNIdA6rG8V7w&usqp=CAU) center / cover'}} > Movie Search App</CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://cdn.pixabay.com/photo/2018/12/04/18/04/media-3856203__340.png) center / cover'}} > Movie Search App</CardTitle>
             <CardText>
               I have created movie search App 
             </CardText>
@@ -145,7 +145,7 @@ class Projects extends Component {
               </Button>
              
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -163,7 +163,7 @@ class Projects extends Component {
               Link
               </Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
+            <CardMenu style={{color: '#000'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
@@ -181,7 +181,7 @@ class Projects extends Component {
          <div className="projects-grid">
         
         <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://augnitive.com/wp-content/uploads/2019/09/Fundamentals-of-JavaScript-Part-2.png) center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQboAdVwCSJPscd3UEr4W6Y0e7NjAN0W_Tdww&usqp=CAU) center / cover'}} ></CardTitle>
             <CardText>
              This project is Music App player used  different song, author,title and audio.
              In that project i used Javascript, Bootstrap,Css for design,styling and javascript  used for validation.
@@ -200,7 +200,7 @@ class Projects extends Component {
           </Card>
           
           <Card shadow={5} style={{minWidth: '450', margin: '20px'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://augnitive.com/wp-content/uploads/2019/09/Fundamentals-of-JavaScript-Part-2.png) center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(https://cdn.wallpaperhub.app/cloudcache/4/4/7/5/e/7/4475e73c885921925f61fcf123c7c8c1f93e1c0c.jpg) center / cover'}} ></CardTitle>
             <CardText>
              This project is Window11Desktop   .
             </CardText>
