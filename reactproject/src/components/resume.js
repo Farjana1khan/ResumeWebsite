@@ -31,13 +31,13 @@ class Resume extends Component {
             <h5>Phone</h5>
             <p>(91) 7021170769</p>
             <h5>Email</h5>
-            <p>farjana01k@gmail.com</p>
+            <p>farjana09khan@gmail.com</p>
             <h5>LinkedIn</h5>
             <p>https://www.linkedin.com/in/farjana-fatehmohd-17a8441a0/</p>
             <h5>GitHub</h5>
             <p>https://github.com/Farjana1khan</p>
             <h5>Website</h5>
-            <p>https://farjana-portfolio-website.netlify.app/</p>
+            <p>https://build-by-farjana-movieapp.netlify.app</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>

@@ -48,7 +48,7 @@ class Contact extends Component {
                     style={{fontFamily: "Anton" }}
                   >
                     <i className="fa fa-envelope" id="fa" aria-hidden="true" />
-                    <a target="__blank" href="mailto:farjana01k@gmail.com" style={{textDecorationLine: "none", color: "#423f3e",}} > Farjana01k@gmail.com</a>
+                    <a target="__blank" href="mailto:farjana09khan@gmail.com" style={{textDecorationLine: "none", color: "#423f3e",}} > Farjana09khan@gmail.com</a>
                      
                   </ListItemContent>
                 </ListItem>
