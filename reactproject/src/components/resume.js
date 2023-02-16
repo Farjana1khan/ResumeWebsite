@@ -37,7 +37,7 @@ class Resume extends Component {
             <h5>GitHub</h5>
             <p>https://github.com/Farjana1khan</p>
             <h5>Website</h5>
-            <p>https://build-by-farjana-movieapp.netlify.app</p>
+            <p>https://farjana-portfolio-website.netlify.app</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
