@@ -16,9 +16,9 @@ class Contact extends Component {
               // style={{ height: "150px" }}
             />
             <p style={{ width: "70%", margin: "auto", paddingTop: "1em" }}>
-            <p> Frontend Developer specializing in React Js development. 
+            <p> Frontend Developer specializing in React Js and NextJS development. 
               Experienced with all stages of the development cycle for dynamic web projects.
-               Well-versed in numerous programming languages including JavaScript, Html, CSS, Bootstrap, Node JS, Express JS, Mongo DB, MySQL
+               Well-versed in numerous programming languages including JavaScript, Html, CSS, Tailwind CSS Bootstrap, Node JS, Express JS, Mongo DB, MySQL
 </p>
             </p>
           </Cell>
@@ -38,7 +38,7 @@ class Contact extends Component {
                       id="fa"
                       aria-hidden="true"
                     />
-                    (91) 7021170769
+                   <a> (91) 7021170769</a>
                   </ListItemContent>
                 </ListItem>
 

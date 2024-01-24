@@ -61,7 +61,19 @@ class Resume extends Component {
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h2>Experience</h2> 
-
+              <Experience
+                startYear={2023}
+                endYear={2024}
+                jobName="Frontend Developer(Employement)"
+                jobDescription="March 2023-Present | Zucol Services , Gurgaon, Haryana"
+                />
+                
+              <Experience
+                startYear={2022}
+                endYear={2022}
+                jobName="Frontend Developer(Employement)"
+                jobDescription="February 2022-June2022 | CyberMoksh , Gurgaon, Haryana"
+                /> 
             <Experience
               startYear={2021}
               endYear={2021}
@@ -71,16 +83,14 @@ class Resume extends Component {
             
               />
 
-              <Experience
-                startYear={2022}
-                endYear={2022}
-                jobName="Frontend Developer(Employement)"
-                jobDescription="February 2022-June2022 | CyberMoksh , Gurgaon, Haryana"
-                /> 
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
                       skill="React Js"
+                      progress={90}
+                      />
+                        <Skills
+                      skill="Next JS"
                       progress={80}
                       />
                 <Skills
@@ -94,6 +104,10 @@ class Resume extends Component {
                 <Skills
                      skill="HTML/CSS"
                      progress={80}
+                  />
+                   <Skills
+                     skill="Tailwind CSS"
+                     progress={90}
                   />
                   <Skills
                      skill="NodeJS"
