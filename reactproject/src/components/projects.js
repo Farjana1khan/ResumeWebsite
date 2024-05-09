@@ -825,6 +825,7 @@ class Projects extends Component {
     return (
       <div style={{ overflowX: 'auto', whiteSpace: 'nowrap' }}>
         <Tabs
+        style={{marginTop:"40px"}}
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple

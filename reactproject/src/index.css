@@ -12,7 +12,7 @@ body {
 .mdl-tabs {
   display: block;
   width: 100%;
-  margin-top: 60px;
+  margin-top: 60px !important;
 }
 
 
@@ -22,6 +22,18 @@ body {
         display:block !important;
           
       }
+
+      .mdl-tabs__tab-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: space-between;
+        align-items: flex-start;
+        height: 48px;
+        padding: 0;
+        margin: 40px 0px;
+        border-bottom: 1px solid #e0e0e0;
+    }
   }
 
 
