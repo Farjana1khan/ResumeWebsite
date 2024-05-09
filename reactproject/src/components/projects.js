@@ -27,7 +27,7 @@ class Projects extends Component {
         <div className="">
           <Grid>
             <Cell col={3}>
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -66,7 +66,7 @@ class Projects extends Component {
               </Card>
             </Cell>
             <Cell col={3}>
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{minWidth: "450",  maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -657,7 +657,7 @@ class Projects extends Component {
         // JavaScript Project
         <div>
           <div className="projects-grid">
-            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+            <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
                   color: "#000",
@@ -695,7 +695,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+            <Card shadow={5} style={{minWidth: "450",  maxWidth: "450", margin: "20px" }}>
               <CardTitle
                 style={{
                   color: "#000",
@@ -823,7 +823,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ overflowX: 'auto', whiteSpace: 'nowrap' }}>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}

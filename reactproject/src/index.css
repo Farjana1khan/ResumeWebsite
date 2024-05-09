@@ -8,3 +8,37 @@ body {
 .fa-laptop-code{
   size: 700px;
 }
+
+.mdl-tabs {
+  display: block;
+  width: 100%;
+  margin-top: 60px;
+}
+
+
+@media (max-width: 768px) {
+ 
+      .mdl-grid {
+        display:block !important;
+          
+      }
+  }
+
+
+  @media (max-width: 479px) {
+   
+        .mdl-cell--3-col, .mdl-cell--3-col-phone.mdl-cell--3-col-phone {
+            width:0px !important;
+        }
+    }
+    
+    @media (max-width: 479px) {
+  
+        .mdl-cell {
+            margin: 8px;
+        
+        }
+    }
+
+
+    
