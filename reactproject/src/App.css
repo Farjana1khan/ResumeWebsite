@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .header-color {
   background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -329,9 +334,14 @@ a:not([href]):hover {
   color: white;
   padding-bottom: 10px;
 }
-
+/* .mdl-card{
+width:260px !important;
+} */
 /* For responsive */
 @media (max-width: 520px) {
+  .mdl-card{
+    width:0px
+    }
   .landing-grid {
     font-size: 1rem;
     line-height: 2.5rem;

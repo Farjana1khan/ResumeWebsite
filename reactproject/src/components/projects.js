@@ -24,7 +24,10 @@ class Projects extends Component {
       return (
         // React Js Projects
 
-        <div className="">
+        <>
+
+       
+
           <Grid>
             <Cell col={3}>
               <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
@@ -106,7 +109,7 @@ class Projects extends Component {
               </Card>
             </Cell>
             <Cell col={3}>
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{ minWidth: "450", maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -146,7 +149,7 @@ class Projects extends Component {
               </Card>
             </Cell>
             <Cell col={3}>
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -189,7 +192,7 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ minWidth: "450", margin: "20px", minHeight: "176px" }}
+                style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}
               >
                 <CardTitle
                   style={{
@@ -232,7 +235,7 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ minWidth: "450", margin: "20px", minHeight: "176px" }}
+                style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}
               >
                 <CardTitle
                   style={{
@@ -276,7 +279,7 @@ class Projects extends Component {
             <Cell col={3}>
               <Card
                 shadow={5}
-                style={{ minWidth: "450", margin: "20px", minHeight: "176px" }}
+                style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}
               >
                 <CardTitle
                   style={{
@@ -319,7 +322,7 @@ class Projects extends Component {
             </Cell>
             <Cell col={3}>
               {/* Project 4 */}
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -358,7 +361,7 @@ class Projects extends Component {
             </Cell>
 
             <Cell col={3}>
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -398,7 +401,7 @@ class Projects extends Component {
             </Cell>
 
             <Cell col={3}>
-              <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+              <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
                 <CardTitle
                   style={{
                     color: "#000",
@@ -437,7 +440,7 @@ class Projects extends Component {
               </Card>
             </Cell>
           </Grid>
-        </div>
+        </>
       );
     } else if (this.state.activeTab === 1) {
       //Next JS Project
@@ -577,7 +580,7 @@ class Projects extends Component {
         // Node Js Project
         <div>
           <div className="projects-grid">
-            <Card shadow={5} style={{ minWidth: "450", margin: "20px" }}>
+            <Card shadow={5} style={{ minWidth: "450", maxWidth:"450", margin: "20px" }}>
               <CardTitle
                 style={{
                   height: "176px",
@@ -656,8 +659,8 @@ class Projects extends Component {
       return (
         // JavaScript Project
         <div>
-          <div className="projects-grid">
-            <Card shadow={5} style={{ minWidth: "450",  maxWidth: "450", margin: "20px" }}>
+          <div style={{  display:"flex", margin:"20px 20px" }}>
+            <Card shadow={5} >
               <CardTitle
                 style={{
                   color: "#000",
@@ -695,7 +698,7 @@ class Projects extends Component {
               </CardMenu>
             </Card>
 
-            <Card shadow={5} style={{minWidth: "450",  maxWidth: "450", margin: "20px" }}>
+            <Card shadow={5}  style={{  marginLeft:"20px" }}>
               <CardTitle
                 style={{
                   color: "#000",
@@ -849,3 +852,7 @@ class Projects extends Component {
 }
 
 export default Projects;
+
+
+
+

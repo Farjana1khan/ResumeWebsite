@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +21,11 @@ body {
 
 
 @media (max-width: 768px) {
+
+  .mdl-card {
+    width: 0px;
+  }
+
  
       .mdl-grid {
         display:block !important;
@@ -42,15 +51,26 @@ body {
         .mdl-cell--3-col, .mdl-cell--3-col-phone.mdl-cell--3-col-phone {
             width:0px !important;
         }
+        .mdl-grid{
+          padding:0px !important;
+        }
     }
     
-    @media (max-width: 479px) {
+    @media (min-width: 479px) {
   
         .mdl-cell {
-            margin: 8px;
+            margin: 0px !important;
         
         }
     }
 
 
-    
+    .mdl-card__supporting-text {
+      color: rgba(0, 0, 0, 0.54);
+      font-size: 1rem;
+      line-height: 18px;
+      overflow: hidden;
+      padding: 16px 16px;
+      width: 100% !important;
+      text-wrap: wrap;
+    }

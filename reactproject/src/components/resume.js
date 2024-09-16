@@ -29,7 +29,7 @@ class Resume extends Component {
             <h5>Address</h5>
             <p>At.Ghasera District Mewat Nuh,Haryana </p>
             <h5>Phone</h5>
-            <p>(91) 7021170769</p>
+            <p>(91) 70211707xyz</p>
             <h5>Email</h5>
             <p>farjana09khan@gmail.com</p>
             <h5>LinkedIn</h5>
