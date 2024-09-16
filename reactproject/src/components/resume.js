@@ -65,14 +65,14 @@ class Resume extends Component {
                 startYear={2023}
                 endYear={2024}
                 jobName="Frontend Developer(Employement)"
-                jobDescription="March 2023-Present | Zucol Services , Gurgaon, Haryana"
+                jobDescription="2023-2024 | Zucol Services , Gurgaon, Haryana"
                 />
                 
               <Experience
                 startYear={2022}
-                endYear={2022}
+                endYear={2023}
                 jobName="Frontend Developer(Employement)"
-                jobDescription="February 2022-June2022 | CyberMoksh , Gurgaon, Haryana"
+                jobDescription=" 2022-2023 | CyberMoksh , Gurgaon, Haryana"
                 /> 
             <Experience
               startYear={2021}
